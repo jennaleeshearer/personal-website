@@ -1,0 +1,26 @@
+.aboveFold {
+  display: flex;
+  flex-direction: row ;
+  align-items: center ;
+  height: 600px ;
+}
+
+.foldCol {
+  margin: 5%;
+  width: 50% ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  flex-direction: column ;
+  padding: 3%
+}
+
+.profilePic {
+  width: 70%;
+}
+
+.links {
+  color: black;
+  font-size: 30px;
+  padding-left: 10px;
+}

@@ -1,0 +1,29 @@
+.work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: #efefef;
+}
+
+.work table {
+  text-align: left;
+}
+
+.work  td {
+  padding: 30px;
+  max-width: 700px;
+}
+
+.work ul, p {
+  padding-bottom: 20px;
+}
+
+.work-badge {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: white;
+  background: #3a3b49;
+  margin-top: 30px;
+}

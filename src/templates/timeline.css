@@ -1,0 +1,49 @@
+.timeline {
+  position: relative;
+  padding-left: 4rem;
+}
+
+.timeline-color {
+  background: #3a3b44;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: #27293d;
+}
+
+.timeline-container {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.timeline-icon {
+  position: absolute;
+  border-radius: 50%;
+  left: -78px;
+  top: 30%;
+  width: 30px;
+  height: 30px;
+}
+
+.timeline-body {
+  max-width: 650px;
+  background: #dcdcdc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.badge {
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+}
+
+h4, p {
+  margin-top: 20px;
+}
