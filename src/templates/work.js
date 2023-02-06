@@ -4,6 +4,7 @@ import "./work.css"
 export default class WorkExperience extends React.PureComponent {
   render() {
       return <div class="work">
+        <h1 class="work-heading">Work Experience</h1>
         <table>
           <tr>
             <td>04/2021-present</td>
@@ -16,7 +17,11 @@ export default class WorkExperience extends React.PureComponent {
               </ul>
 
               <div>
-                <span class="work-badge">Ruby</span><span class="work-badge">React Native</span><span class="work-badge">Python</span><span class="work-badge">SQL</span>
+                <span class="work-badge">Ruby</span>
+                <span class="work-badge">React Native</span>
+                <span class="work-badge">Python</span>
+                <span class="work-badge">SQL</span>
+                <span class="work-badge">Jekyll</span>
               </div>
             </td>
           </tr>
@@ -26,8 +31,9 @@ export default class WorkExperience extends React.PureComponent {
             <td><strong>Teacher’s Assistant</strong> <br></br>Stellenbosch University</td>
             <td>
               <p>
-                I was a teacher’s assistant for a second year Applied Mathematics module. This involved helping students understand
-                topics taught in the course and assisting in marking course material.
+              Assisted in teaching a second-year Applied Mathematics module. Helped students understand course
+              concepts and topics, through one-on-one support during study sessions. Assisted in marking coursework
+              and providing feedback to students, promoting their learning and development
               </p>
                 <span class="work-badge">Matlab</span>
             </td>

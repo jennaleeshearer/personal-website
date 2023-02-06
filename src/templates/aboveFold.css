@@ -2,12 +2,12 @@
   display: flex;
   flex-direction: row ;
   align-items: center ;
-  height: 600px ;
+  height: 500px ;
 }
 
 .foldCol {
   margin: 5%;
-  width: 50% ;
+  width: 60% ;
   display: flex ;
   justify-content: center ;
   align-items: center ;
@@ -17,10 +17,22 @@
 
 .profilePic {
   width: 70%;
+  max-width: 350px;
+  border-radius: 10%;
 }
 
 .links {
   color: black;
   font-size: 30px;
   padding-left: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  .profilePic {
+    display: none;
+  }
+
+  .foldCol {
+    width: 100%;
+  }
 }

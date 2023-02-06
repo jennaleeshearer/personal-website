@@ -12,11 +12,8 @@ function App() {
 
       < AboveFold />
 
-
-      <h1 style={{marginBottom: '30px'}}>Work Experience</h1>
       < WorkExperience />
 
-      <h1 style={{marginBottom: '30px'}}>Education</h1>
       < Timeline />
 
       < Footer />

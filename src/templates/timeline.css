@@ -42,8 +42,21 @@
   padding: 8px;
   border-radius: 5px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 h4, p {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .timeline:before, .timeline-icon {
+    display: none;
+  }
+
+  .timeline {
+    padding: 10px;
+  }
+
 }

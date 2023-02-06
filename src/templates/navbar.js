@@ -6,8 +6,7 @@ export default class CustomNavbar extends React.PureComponent {
       return <nav>
         <ul className="menu" style={{display: "flex"}}>
             <li className="logo"><a href="#"> &lt; / &gt;</a></li>
-            <li className="item"><a href="#">Home</a></li>
-            <li className="item"><a href="#">Contact</a></li>
+            <li className="item"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
   }
