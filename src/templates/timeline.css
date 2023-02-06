@@ -46,7 +46,7 @@
   justify-content: center;
 }
 
-h4, p {
+.timeline h4, .timeline p {
   margin-top: 20px;
 }
 

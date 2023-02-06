@@ -10,13 +10,12 @@ export default class WorkExperience extends React.PureComponent {
             <td>04/2021-present</td>
             <td><strong>Sotfware Developer</strong> <br></br>SwiftVEE</td>
             <td>
-              <ul>
-                <li>Maintain features and fix bugs in an real time auction platform in Ruby and Bootstrap</li>
-                <li>Create and release React Native apps</li>
-                <li>Maintained python server</li>
-              </ul>
-
-              <div>
+              <p>
+                Maintained and enhanced features of a real-time auction platform using Ruby on Rails with Stimulus and Bootstrap.
+                Created and released multiple React Native mobile applications, ensuring compatibility with both iOS and Android devices.
+                Maintained and updated a Python server to ensure it's functionality. Queried databases using SQL to data generate reports.
+              </p>
+              <div class="badges">
                 <span class="work-badge">Ruby</span>
                 <span class="work-badge">React Native</span>
                 <span class="work-badge">Python</span>
@@ -31,9 +30,9 @@ export default class WorkExperience extends React.PureComponent {
             <td><strong>Teacher’s Assistant</strong> <br></br>Stellenbosch University</td>
             <td>
               <p>
-              Assisted in teaching a second-year Applied Mathematics module. Helped students understand course
-              concepts and topics, through one-on-one support during study sessions. Assisted in marking coursework
-              and providing feedback to students, promoting their learning and development
+                Assisted in teaching a second-year Applied Mathematics module. Helped students understand course
+                concepts and topics, through one-on-one support during study sessions. Assisted in marking coursework
+                and providing feedback to students, promoting their learning and development
               </p>
                 <span class="work-badge">Matlab</span>
             </td>

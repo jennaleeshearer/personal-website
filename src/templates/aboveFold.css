@@ -5,6 +5,14 @@
   height: 500px ;
 }
 
+.aboveFold h1 {
+  margin-bottom: 10px;
+}
+
+.aboveFold p {
+  margin: 10px 0 20px 0;
+}
+
 .foldCol {
   margin: 5%;
   width: 60% ;

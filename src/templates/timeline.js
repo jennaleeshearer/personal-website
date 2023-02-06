@@ -33,8 +33,6 @@ export default class Timeline extends React.PureComponent {
                   This degree program provided me with a comprehensive education in mathematical theories, models, and techniques, and equipped me
                   with the necessary skills to analyze and solve real-world problems in various industries. I took courses in areas such as
                   linear algebra, calculus, numerical analysis, optimization techniques, probability and statistics.
-                  These courses helped me develop a solid foundation in mathematical concepts and methods, and provided me with hands-on
-                  experience in using mathematical tools to solve practical problems.
                 </p>
               </div>
             </div>
