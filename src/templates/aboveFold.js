@@ -11,6 +11,8 @@ export default class AboveFold extends React.PureComponent {
           </h1>
           <p>
             Graduated Cum Laude in <span className= "primary"><strong>Applied Mathematics</strong></span>.
+          </p>
+          <p>
             I love all things, mathematics, front-end development, computer vision and more! I am a highly motivated and hardworking front-end
             software developer with a strong background in applied mathematics. My passion for coding and problem-solving combined with my
             mathematical knowledge allows me to approach software development in a unique and creative way. I am always looking for

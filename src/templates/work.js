@@ -11,9 +11,10 @@ export default class WorkExperience extends React.PureComponent {
             <td><strong>Sotfware Developer</strong> <br></br>SwiftVEE</td>
             <td>
               <p>
-                Maintained and enhanced features of a real-time auction platform using Ruby on Rails with Stimulus and Bootstrap.
+                Assisted in maintaining and enhanced features of a real-time auction platform using Ruby on Rails with Stimulus and Bootstrap.
                 Created and released multiple React Native mobile applications, ensuring compatibility with both iOS and Android devices.
-                Maintained and updated a Python server to ensure it's functionality. Queried databases using SQL to data generate reports.
+                Creating and maintaining static sites in Jekyll with Stimulus and Bootstrap. Maintained and updated a Python server to ensure it's functionality.
+                Queried databases using SQL to data generate reports.
               </p>
               <div class="badges">
                 <span class="work-badge">Ruby</span>
