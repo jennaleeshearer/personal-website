@@ -3,7 +3,7 @@ import "./timeline.css"
 
 export default class Timeline extends React.PureComponent {
   render() {
-      return <div style={{display: "flex", justifyContent: "center"}}>
+      return <div className="eduction">
         <div className="container" id="education">
           <h1 style={{marginBottom: "30px"}}>Education</h1>
           <div className="timeline">
@@ -16,8 +16,8 @@ export default class Timeline extends React.PureComponent {
                   <p>
                     My honours thesis was a study about different techniques used for iris segmentation using Digital Image Processing.
                     Various techniques were studied and compared in order to find the best algorithm for this problem.
-                    The different methods explored were Hough transform, Region Growing segmentation and Region Growing segmentation.
-                    Before one could apply these different segmentation algorithms, various preprocessing techniques were explored to
+                    The different methods explored included Hough transform and Region Growing segmentation.
+                    Before one could apply these different segmentation algorithms, various pre-processing techniques were explored to
                     ensure the most accurate result, which included Gaussian blur, edge detection methods and row and column sum operations.
                   </p>
               </div>
@@ -30,9 +30,7 @@ export default class Timeline extends React.PureComponent {
                 <h4>Stellenbosch University</h4>
                 <p>
                   I completed a Bachelor of Science in Mathematical Sciences, with a specialization in Applied Mathematics and Operations Research.
-                  This degree program provided me with a comprehensive education in mathematical theories, models, and techniques, and equipped me
-                  with the necessary skills to analyze and solve real-world problems in various industries. I took courses in areas such as
-                  linear algebra, calculus, numerical analysis, optimization techniques, probability and statistics.
+                  I took courses in areas such as linear algebra, calculus, numerical analysis, optimization techniques, probability and statistics.
                 </p>
               </div>
             </div>
@@ -42,7 +40,7 @@ export default class Timeline extends React.PureComponent {
               <div className="timeline-body">
                 <span className="badge timeline-color"><strong>Matric 2016</strong></span>
                 <h4>Parklands College</h4>
-                <p>Matriculated with a NSC Bachelor Pass</p>
+                <p>Matriculated with a NSC Bachelor’s Degree Pass</p>
               </div>
             </div>
         </div>

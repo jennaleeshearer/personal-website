@@ -19,7 +19,7 @@ export default class ContactMe extends React.PureComponent {
         </div>
         <div className="contact-details">
           <i className="fas fa-map-marker-alt"></i>
-          Cape Town, South Afric
+          Cape Town, South Africa
         </div>
     </div>
   }
