@@ -1,12 +1,16 @@
 # Personal Website
-
-I utilized `React.js` to build this website, as it allowed me to create a dynamic
+My personal website was built using `React.js` this allowed me to create a dynamic
 and responsive web application that could be easily updated and maintained.
+
+Website can be found at
+https://jennaleeshearer.netlify.app/
 
 # Setup :hammer:
 `npm install`
 
 `npm start`
 
-## Hosted :house:
-This website is hosted on Netlify and can be found at
+## Prosduction :house:
+Hosted on Netlify
+
+`npm run build`

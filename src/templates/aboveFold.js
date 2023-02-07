@@ -7,7 +7,7 @@ export default class AboveFold extends React.PureComponent {
       return <div className="aboveFold">
         <div className= "foldCol">
           <h1>
-            Hi! I"m <span className= "primary">Jenna</span>,<br/>Front-End Web Developer
+            Hi! I'm <span className= "primary">Jenna</span>,<br/>Front-End Web Developer
           </h1>
           <p>
             Graduated Cum Laude in <span className= "primary"><strong>Applied Mathematics</strong></span>.
