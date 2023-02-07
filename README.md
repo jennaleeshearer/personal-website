@@ -10,7 +10,7 @@ https://jennaleeshearer.netlify.app/
 
 `npm start`
 
-## Prosduction :house:
+## Production :house:
 Hosted on Netlify
 
 `npm run build`
