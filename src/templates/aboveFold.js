@@ -24,7 +24,7 @@ export default class AboveFold extends React.PureComponent {
         </div>
         </div>
         <div>
-          <img src={me} className="profilePic"/>
+          <img src={me} className="profilePic" alt="jennaleeshearer"/>
         </div>
       </div>
   }

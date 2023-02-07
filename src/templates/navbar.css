@@ -13,7 +13,7 @@ nav ul {
   list-style: none;
 }
 
-nav a {
+nav a, li {
   color: white;
   text-decoration: none;
 }
