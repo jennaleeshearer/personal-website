@@ -4,8 +4,8 @@ import "./aboveFold.css"
 
 export default class AboveFold extends React.PureComponent {
   render() {
-      return <div class="aboveFold">
-        <div class= "foldCol">
+      return <div className="aboveFold">
+        <div className= "foldCol">
           <h1>
             Hi! I"m <span className= "primary">Jenna</span>,<br/>Front-End Web Developer
           </h1>
@@ -19,12 +19,12 @@ export default class AboveFold extends React.PureComponent {
             new challenges to expand my skills and knowledge.
           </p>
           <div>
-          <a href='https://github.com/jennaleeshearer' target={'_blank'} rel="noreferrer" class="links"><i class="fab fa-github"></i></a>
-          <a href='https://www.linkedin.com/in/jenna-lee-shearer-7aba841b3/' target={'_blank'} rel="noreferrer" class="links"><i class="fab fa-linkedin"></i></a>
+          <a href='https://github.com/jennaleeshearer' target={'_blank'} rel="noreferrer" className="links"><i className="fab fa-github"></i></a>
+          <a href='https://www.linkedin.com/in/jenna-lee-shearer-7aba841b3/' target={'_blank'} rel="noreferrer" className="links"><i className="fab fa-linkedin"></i></a>
         </div>
         </div>
         <div>
-          <img src={me} class="profilePic"/>
+          <img src={me} className="profilePic"/>
         </div>
       </div>
   }

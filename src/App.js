@@ -4,18 +4,16 @@ import AboveFold from './templates/aboveFold'
 import Timeline from './templates/timeline'
 import WorkExperience from './templates/work'
 import Footer from './templates/footer'
+import ContactMe from './templates/contact'
 
 function App() {
   return (
     <div className="App website">
       < CustomNavbar />
-
       < AboveFold />
-
       < WorkExperience />
-
       < Timeline />
-
+      < ContactMe />
       < Footer />
     </div>
   );
