@@ -5,14 +5,15 @@ export default class Timeline extends React.PureComponent {
   render() {
       return <div className="d-flex text-center flex-column justify-content-center align-items-center">
         <div id="education">
+          <hr className="mb-5"></hr>
           <h1 className="my-5 fw-bold">Education</h1>
           <div className="timeline">
             <div className="timeline-container">
               <div className="timeline-icon bg-dark">
               </div>
               <div className="timeline-body">
-                  <span className="badge bg-dark"><strong>BScHons Applied Mathematics (Cum Laude) 2020 </strong></span>
-                  <h4>Stellenbosch University</h4>
+                  <h4><strong>BScHons Applied Mathematics (Cum Laude) 2020 </strong></h4>
+                  <p className="badge bg-secondary my-0">Stellenbosch University</p>
                   <p>
                     My honours thesis was a study about different techniques used for iris segmentation using Digital Image Processing.
                     Various techniques were studied and compared in order to find the best algorithm for this problem.
@@ -26,20 +27,20 @@ export default class Timeline extends React.PureComponent {
               <div className="timeline-icon bg-dark">
               </div>
               <div className="timeline-body">
-                <span className="badge bg-dark"><strong>BSc Mathematical Sciences 2017-2019</strong></span>
-                <h4>Stellenbosch University</h4>
+                <h4><strong>BSc Mathematical Sciences 2017-2019</strong></h4>
+                <p className="badge bg-secondary my-0">Stellenbosch University</p>
                 <p>
                   I completed a Bachelor of Science in Mathematical Sciences, with a specialization in Applied Mathematics and Operations Research.
                   I took courses in areas such as linear algebra, calculus, numerical analysis, optimization techniques, probability and statistics.
                 </p>
               </div>
             </div>
-            <div className="timeline-container ">
+            <div className="timeline-container">
               <div className="timeline-icon bg-dark">
               </div>
               <div className="timeline-body">
-                <span className="badge bg-dark"><strong>Matric 2016</strong></span>
-                <h4>Parklands College</h4>
+                <h4><strong>Matric 2016</strong></h4>
+                <p className="badge bg-secondary my-0">Parklands College</p>
                 <p>Matriculated with a NSC Bachelor’s Degree Pass</p>
               </div>
             </div>
