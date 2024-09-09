@@ -1,15 +1,30 @@
 import React from "react";
-import "./navbar.css"
+import "./navbar.css";
 
 export default class CustomNavbar extends React.PureComponent {
   render() {
-      return <nav>
-        <ul className="menu" style={{display: "flex"}}>
-            <li className="logo" id="logo">&lt; / &gt;</li>
-            <li className="item"><a href="#experience">Experience</a></li>
-            <li className="item"><a href="#education">Education</a></li>
-            <li className="item"><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    return (
+      <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+        <div className="container-fluid">
+          <span className="navbar-brand">JS Shearer</span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link" href="#experience">Experience</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#education">Education</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    );
   }
 }

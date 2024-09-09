@@ -3,8 +3,8 @@ import "./timeline.css"
 
 export default class Timeline extends React.PureComponent {
   render() {
-      return <div className="d-flex text-center flex-column justify-content-center align-items-center">
-        <div id="education">
+      return <div className="d-flex text-center flex-column justify-content-center align-items-center" id="education">
+        <div>
           <hr className="mb-5"></hr>
           <h1 className="my-5 fw-bold">Education</h1>
           <div className="timeline">

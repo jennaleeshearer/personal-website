@@ -9,6 +9,7 @@ import ContactMe from './templates/contact'
 function App() {
   return (
     <div className="App website">
+      < CustomNavbar />
       < AboveFold />
       < WorkExperience />
       < Timeline />
