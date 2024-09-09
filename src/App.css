@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.bg-img {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-image: url("../src/img/background.jpg");
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -4,27 +4,38 @@ import "./aboveFold.css"
 
 export default class AboveFold extends React.PureComponent {
   render() {
-      return <div className="aboveFold">
-        <div className= "foldCol">
-          <h1>
-            Hi! I'm <span className= "primary">Jenna</span>,<br/>Front-End Web Developer
-          </h1>
-          <p>
-            Graduated Cum Laude in <span className= "primary"><strong>Applied Mathematics</strong></span>.
-          </p>
-          <p>
-            I love all things mathematics, front-end development, computer vision and more! I am a highly motivated and hard-working front-end
-            software developer with a strong background in Applied Mathematics. My passion for coding and problem-solving combined with my
-            mathematical knowledge allows me to approach software development in a unique and creative way. I am always looking for
-            new challenges to expand my skills and knowledge.
-          </p>
-          <div>
-          <a href='https://github.com/jennaleeshearer' target={'_blank'} rel="noreferrer" className="links"><i className="fab fa-github"></i></a>
-          <a href='https://www.linkedin.com/in/jenna-lee-shearer-7aba841b3/' target={'_blank'} rel="noreferrer" className="links"><i className="fab fa-linkedin"></i></a>
-        </div>
-        </div>
-        <div>
-          <img src={me} className="profilePic" alt="jennaleeshearer"/>
+      return <div className="bg-img">
+        <div className="text-dark text-center p-5">
+          <div className="row">
+            <div className="col-8">
+              <span className="subheading fw-bold rounded bg-white">
+                Hi There!
+              </span>
+              <h2 className="mt-2">I am <strong>Jenna-Lee Shearer</strong>, </h2>
+              <h2 className="mt-0 mb-4">a Software Developer</h2>
+              <h5 className="mb-3">Graduated Cum Laude in <strong>Applied Mathematics</strong>.</h5>
+
+              <p>
+                I'm a passionate and driven software developer with a cum laude degree in Applied Mathematics.
+                Combining my love for coding with my analytical skills, I approach development with creativity and precision.
+                With diverse experience in both software development and data analysis, I'm always eager to tackle new challenges
+                and expand my skill set. Currently seeking opportunities where I can leverage my expertise or transition into a
+                data analytics role.
+              </p>
+              <a href='https://github.com/jennaleeshearer' target={'_blank'} rel="noreferrer" className="text-decoration-none text-dark me-3">
+                <i className="fab fa-github"></i> Github
+              </a>
+              <a href='https://www.linkedin.com/in/jenna-lee-shearer-7aba841b3/' target={'_blank'} rel="noreferrer" className="text-decoration-none text-dark me-3">
+                <i className="fab fa-linkedin"></i> Linkedin
+              </a>
+              <a href='https://public.tableau.com/app/profile/jenna.lee.shearer/' target={'_blank'} rel="noreferrer" className="text-decoration-none text-dark">
+                <i className="fa-solid fa-database"></i> Tableau
+              </a>
+            </div>
+            <div className="col-4">
+              <img src={me} className="profilePic" alt="jennaleeshearer"/>
+            </div>
+          </div>
         </div>
       </div>
   }
