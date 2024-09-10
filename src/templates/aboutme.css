@@ -1,5 +1,5 @@
-.profilePic {
-  max-width: 300px;
+.profile {
+  max-width: 200px;
 }
 
 .subheading {
@@ -23,14 +23,4 @@
   border-style: solid;
   border-width: 5px 5px 0 5px;
   border-color: #fff transparent transparent transparent;
-}
-
-@media screen and (max-width: 767px) {
-  .profilePic {
-    display: none;
-  }
-
-  .foldCol {
-    width: 100%;
-  }
 }

@@ -22,8 +22,7 @@ export default class AboutNe extends React.PureComponent {
                 I'm a passionate and driven software developer with a cum laude degree in Applied Mathematics.
                 Combining my love for coding with my analytical skills, I approach development with creativity and precision.
                 With diverse experience in both software development and data analysis, I'm always eager to tackle new challenges
-                and expand my skill set. Currently seeking opportunities where I can leverage my expertise or transition into a
-                data analytics role.
+                and expand my skill set.
               </p>
               <a href='https://github.com/jennaleeshearer' target={'_blank'} rel="noreferrer" className="text-decoration-none text-white me-3">
                 <i className="fab fa-github"></i> Github
@@ -35,8 +34,8 @@ export default class AboutNe extends React.PureComponent {
                 <i className="fa-solid fa-database"></i> Tableau
               </a>
             </div>
-            <div className="col-0 col-md-4">
-              <img src={me} className="profilePic rounded" alt="jennaleeshearer"/>
+            <div className="col-0 col-md-4 d-flex flex-column justify-content-center align-items-center">
+              <img src={me} className="d-none d-md-block rounded profile" alt="jennaleeshearer"/>
             </div>
           </div>
         </div>
