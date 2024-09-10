@@ -8,9 +8,12 @@ export default class AboutNe extends React.PureComponent {
         <div className="text-white text-center p-5">
           <div className="row">
             <div className="col-12 col-md-8">
-              <span className="subheading fw-bold rounded bg-white text-dark">
-                Hi There!
-              </span>
+              <div className="mb-3">
+                <span className="subheading fw-bold rounded bg-white text-dark">
+                  Hi There!
+                </span>
+              </div>
+
               <h2 className="mt-2">I am <strong>Jenna-Lee Shearer</strong>, </h2>
               <h2 className="mt-0 mb-4">a Software Developer</h2>
               <h5 className="mb-3">Graduated Cum Laude in <strong>Applied Mathematics</strong>.</h5>
