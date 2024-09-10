@@ -1,16 +1,6 @@
-.eduction {
-  padding: 5% 0 1% 0;
-  display: flex;
-  justify-content: center;
-}
-
 .timeline {
   position: relative;
   padding-left: 4rem;
-}
-
-.timeline-color {
-  background: #3a3b44;
 }
 
 .timeline:before {
@@ -38,19 +28,12 @@
 
 .timeline-body {
   max-width: 650px;
-  background: #dcdcdc;
+  background: #e4e8eb;
   border-radius: 5px;
   padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.badge {
-  padding: 8px;
-  border-radius: 5px;
-  color: white;
-  display: flex;
-  justify-content: center;
-}
 
 .timeline h4, .timeline p {
   margin-top: 20px;
@@ -64,5 +47,4 @@
   .timeline {
     padding: 10px;
   }
-
 }
