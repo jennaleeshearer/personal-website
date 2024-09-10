@@ -1,13 +1,13 @@
 import React from "react";
 import me from "../img/me.jpg"
-import "./aboveFold.css"
+import "./aboutme.css"
 
-export default class AboveFold extends React.PureComponent {
+export default class AboutNe extends React.PureComponent {
   render() {
       return <div className="bg-img">
         <div className="text-white text-center p-5">
           <div className="row">
-            <div className="col-8">
+            <div className="col-12 col-md-8">
               <span className="subheading fw-bold rounded bg-white text-dark">
                 Hi There!
               </span>
@@ -32,8 +32,8 @@ export default class AboveFold extends React.PureComponent {
                 <i className="fa-solid fa-database"></i> Tableau
               </a>
             </div>
-            <div className="col-4">
-              <img src={me} className="profilePic" alt="jennaleeshearer"/>
+            <div className="col-0 col-md-4">
+              <img src={me} className="profilePic rounded" alt="jennaleeshearer"/>
             </div>
           </div>
         </div>

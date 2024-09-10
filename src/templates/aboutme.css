@@ -1,32 +1,5 @@
-.aboveFold {
-  display: flex;
-  flex-direction: row ;
-  align-items: center ;
-  height: 500px ;
-}
-
-.aboveFold h1 {
-  margin-bottom: 10px;
-}
-
-.aboveFold p {
-  margin: 10px 0;
-}
-
-.foldCol {
-  margin: 5%;
-  width: 60% ;
-  display: flex ;
-  justify-content: center ;
-  align-items: center ;
-  flex-direction: column ;
-  padding: 3%
-}
-
 .profilePic {
-  width: 70%;
-  max-width: 350px;
-  border-radius: 10%;
+  max-width: 300px;
 }
 
 .subheading {
@@ -52,7 +25,7 @@
   border-color: #fff transparent transparent transparent;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 767px) {
   .profilePic {
     display: none;
   }
