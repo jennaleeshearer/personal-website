@@ -43,7 +43,7 @@ export default class WorkExperience extends React.PureComponent {
               <p className="mx-0 mt-0 mb-4 m-md-0 p-0">Stellenbosch University</p>
             </div>
             <div className="col-md-6 text-start">
-              <p>
+              <p className="text-center text-md-start">
                 Assisted in teaching a second-year Applied Mathematics module. Helped students understand course
                 concepts and topics through one-on-one support during study sessions. Assisted in marking coursework
                 and providing feedback to students, promoting their learning and development.
