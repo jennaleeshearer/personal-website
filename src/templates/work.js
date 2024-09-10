@@ -9,11 +9,11 @@ export default class WorkExperience extends React.PureComponent {
 
           <div className="row mb-4">
             <div className="col-md-3 d-flex flex-column justify-content-center">
-              <p className="fw-bold">04/2021 - Present</p>
+              <p className="fw-bold mb-0">04/2021 - Present</p>
             </div>
             <div className="col-md-3 d-flex flex-column justify-content-center">
               <p className="m-0 p-0"><strong>Software Developer</strong></p>
-              <p className="m-0 p-0">SwiftVEE</p>
+              <p className="mx-0 mt-0 mb-4 m-md-0 p-0">SwiftVEE</p>
               </div>
             <div className="col-md-6 text-start">
               <ul>
@@ -23,7 +23,7 @@ export default class WorkExperience extends React.PureComponent {
                 <li><strong>Data Analysis and Visualization:</strong> Utilized SQL to query databases, generate reports, and analyze data. Created and managed data dashboards using Metabase, providing actionable insights and supporting data-driven decision-making.</li>
                 <li><strong>Python Server Maintenance:</strong> Maintained and optimized a Python server, enhancing its performance and functionality.</li>
               </ul>
-              <div className="mt-2">
+              <div className="mt-2 text-center text-md-start">
                 <span className="badge bg-dark me-2">Ruby</span>
                 <span className="badge bg-dark me-2">React Native</span>
                 <span className="badge bg-dark me-2">Jekyll</span>
@@ -36,11 +36,11 @@ export default class WorkExperience extends React.PureComponent {
 
           <div className="row pt-4">
           <div className="col-md-3 d-flex flex-column justify-content-center">
-              <p className="fw-bold">02/2020 – 06/2020</p>
+              <p className="fw-bold mb-0">02/2020 – 06/2020</p>
             </div>
             <div className="col-md-3 d-flex flex-column justify-content-center">
               <p className="m-0 p-0"><strong>Teacher’s Assistant</strong></p>
-              <p className="m-0 p-0">Stellenbosch University</p>
+              <p className="mx-0 mt-0 mb-4 m-md-0 p-0">Stellenbosch University</p>
             </div>
             <div className="col-md-6 text-start">
               <p>
@@ -48,7 +48,7 @@ export default class WorkExperience extends React.PureComponent {
                 concepts and topics through one-on-one support during study sessions. Assisted in marking coursework
                 and providing feedback to students, promoting their learning and development.
               </p>
-              <div className="mt-2">
+              <div className="mt-2 text-center text-md-start">
                 <span className="badge bg-dark me-2">Matlab</span>
                 <span className="badge bg-dark">LaTeX</span>
               </div>
