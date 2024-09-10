@@ -1,10 +1,9 @@
 import React from "react";
-import "./navbar.css";
 
 export default class CustomNavbar extends React.PureComponent {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-black">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
         <div className="container-fluid">
           <span className="navbar-brand">JS Shearer</span>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
